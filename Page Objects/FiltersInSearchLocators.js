@@ -60,12 +60,6 @@ var search = {
 
     },
 
-
-    deliveryTime : {
-
-        slider : element(by.xpath('//div[@class="facetContainer-content"]//input[@class = "s-slider"]')),
-    }
-
     };
     
 
