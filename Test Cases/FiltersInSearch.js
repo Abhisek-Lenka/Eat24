@@ -152,21 +152,5 @@ describe("Working of different filters after the location search",function() {
 
 
 
-    it("checks if delivery time filter is present",function() {
-        
-
-        //checks the slider of delivery time is present
-
-        browser.actions().dragAndDrop(
-
-            filterlocator.deliveryTime.slider,
-
-            {x:1000, y:0}
-
-        ).perform();
-
-    })
-
-
 
     });
